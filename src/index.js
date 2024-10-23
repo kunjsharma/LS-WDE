@@ -8,15 +8,15 @@ pavingPallettes = [
   { name: "Black", color: "#404039", quantity: 20 },
   { name: "White", color: "#ffffff", quantity: 16},
   { name: "Brown", color: "#8a8173", quantity: 12 },
-  { name: "Buff", color: "#c6b9a9", quantity: 28 },
-  { name: "Blue", color: "#7583ac", quantity: 28 },
-  { name: "Green", color: "#868f78", quantity: 28 },
-  { name: "Charcoal", color: "#5f6060", quantity: 28 },
-  { name: "Yellow", color: "#f3e6b3", quantity: 28 },
-  { name: "Cream", color: "#f8f1ea", quantity: 28},
-  { name: "Silver", color: "#c2c2c2", quantity: 28 },
-  { name: "Red", color: "#81483a", quantity: 28 },
-  { name: "Orange", color: "#b3624e", quantity: 28 },
+  { name: "Buff", color: "#c6b9a9", quantity: 8 },
+  { name: "Blue", color: "#7583ac", quantity: 8 },
+  { name: "Green", color: "#868f78", quantity: 4 },
+  { name: "Charcoal", color: "#5f6060", quantity: 4 },
+  { name: "Yellow", color: "#f3e6b3", quantity: 4 },
+  { name: "Cream", color: "#f8f1ea", quantity: 4},
+  { name: "Silver", color: "#c2c2c2", quantity: 4 },
+  { name: "Red", color: "#81483a", quantity: 4 },
+  { name: "Orange", color: "#b3624e", quantity: 4 },
 ];
 
 /**
@@ -41,7 +41,7 @@ const app = (function () {
           item.name +
           '<input type="checkbox" /><span class="ls-f-colours-circle"style="background-color: ' +
           item.color +
-          '; border: 1px solid #404039;"></span></label><span class="quantity">(' +
+          '; border: 1px solid #404039;box-sizing:content-box;"></span></label><span class="quantity">(' +
           item.quantity +
           ")</span></div>";
       } else {

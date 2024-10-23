@@ -4,13 +4,14 @@ body {
   color: #404039;
 }
 section {
-    padding: 20px;
-    background-color: #f1f2f5;
+  max-width: 768px;
+  padding: 20px;
+  background-color: #f1f2f5;
 }
 .ls-f-colours-header {
-    display: flex;
-    border-top: 1px solid #9f9fa0;
-    padding: 20px 0;
+  display: flex;
+  border-top: 1px solid #9f9fa0;
+  padding: 20px 0;
 }
 .ls-f-colours-heading {
   font-size: 18px;
